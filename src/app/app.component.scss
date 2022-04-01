@@ -1,0 +1,45 @@
+.container {
+    margin: 15px;
+    max-width: 800px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    background-image: url('../assets/images/background.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.results {
+    display: flex;
+    flex-direction: row;
+}
+
+.pic {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}
+
+.name {
+    padding: 60px 0px 10px 10px;
+}
+
+.bio {
+    margin-left: 20px;
+}
+
+.wins {
+    padding: 10px;
+}
+
+.loses {
+    padding: 10px;
+}
+
+div {
+    font-family: monospace;
+    font-size: 35px;
+}
